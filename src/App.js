@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Sidebar from './atoms/sidebar/sidebar'
+import Token from './components/tokenaddress/Token'
+import Footer from './components/Footer/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Pair from './components/Pairaddress/Pair'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+      <BrowserRouter>
+<div style={{display:'flex'}}>
+<Sidebar />
+        <Routes>
+          <Route path='/' element={<Token/>}/>
+          <Route path='/pair' element={<Pair/>}/>
+        </Routes>
     </div>
-  );
+      <Footer/>
+      </BrowserRouter>
+  </>
+  )
 }
 
-export default App;
+export default App
+
+// *---------------------------------------------------------*
+// Following the standard structure 
+// seperate file for All Text(commonConstants)
+// seperate file for colors(change color from the one file)
+// using styled components all styling done by manually
+// search filter of Token Search Results is working
+// *---------------------------------------------------------*
