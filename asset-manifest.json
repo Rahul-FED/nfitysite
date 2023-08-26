@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nfitysite/static/css/main.35a41f51.css",
+    "main.js": "/nfitysite/static/js/main.1f134fb1.js",
+    "static/media/logoName.svg": "/nfitysite/static/media/logoName.d135ef5d21b009580cbdb0519ff87419.svg",
+    "static/media/pairlogo.svg": "/nfitysite/static/media/pairlogo.cb329a1c7cef479c346c7fc3722915cd.svg",
+    "static/media/searchbar.svg": "/nfitysite/static/media/searchbar.e2a37a23a751aba23b9fe83e5596f476.svg",
+    "static/media/twitter.svg": "/nfitysite/static/media/twitter.429c86aaf1535a93baced596d562bd53.svg",
+    "index.html": "/nfitysite/index.html",
+    "static/media/linkedin.svg": "/nfitysite/static/media/linkedin.f6f59e2cb7defa4214466d66cc2062d5.svg",
+    "static/media/logo.svg": "/nfitysite/static/media/logo.6a18602cad2f1e63addac21521d4ac2f.svg",
+    "static/media/facebook.svg": "/nfitysite/static/media/facebook.c022902cc08e1d0a67dc9392c1de62bb.svg",
+    "static/media/tokenlogo.svg": "/nfitysite/static/media/tokenlogo.5803159d04b5934d22541d39b50f9a78.svg",
+    "main.35a41f51.css.map": "/nfitysite/static/css/main.35a41f51.css.map",
+    "main.1f134fb1.js.map": "/nfitysite/static/js/main.1f134fb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35a41f51.css",
+    "static/js/main.1f134fb1.js"
+  ]
+}
